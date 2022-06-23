@@ -24,10 +24,10 @@ while active:
 # showing results
 print("===RESULTS===")
 for dat, km  in info.items():
-    print(f"\tДата: {dat}, Пробег: {km}")
+    print(f"\tДата: {dat} | Пробег: {km}")
 for fix, cost in info2.items():
     print(f"\nТО, Ремонт: {fix}\nСумма: {cost}")
 #Total sum
-print("Общая сумма: ", sum(cos_list))
+print("\tОбщая сумма: ", sum(cos_list))
 
 input('')
